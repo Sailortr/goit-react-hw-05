@@ -1,0 +1,43 @@
+.cast-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+  background-color: #b33939;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(105, 43, 43, 0.1);
+}
+
+.cast-item {
+  text-align: center;
+  margin: auto;
+  max-width: 100px;
+}
+
+.cast-image {
+  width: 80px;
+  height: 120px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.cast-name {
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.cast-character {
+  font-size: 10px;
+  color: whitesmoke;
+}
+
+.error-message,
+.no-cast {
+  text-align: center;
+  font-size: 16px;
+  color: #d9534f;
+}
